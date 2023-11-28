@@ -14,46 +14,138 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.aspose</groupId>
-            <artifactId>aspose-pdf</artifactId>
-            <version>21.11</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.aspose</groupId>-->
+<!--            <artifactId>aspose-pdf</artifactId>-->
+<!--            <version>21.11</version>-->
+<!--        </dependency>-->
 
 
         <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itextpdf</artifactId>
-            <version>5.5.13</version>
+            <groupId>net.sourceforge.jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>2.6.12</version>
         </dependency>
-
-
 
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.0.0</version>
+            <version>3.17</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>5.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml-schemas</artifactId>
-            <version>4.1.2</version>
+            <groupId>technology.tabula</groupId>
+            <artifactId>tabula</artifactId>
+            <version>1.0.3</version>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.xmlbeans</groupId>
-                    <artifactId>xmlbeans</artifactId>
-                </exclusion></exclusions>
+                    <artifactId>slf4j-simple</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!--json -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.xmlbeans</groupId>
-            <artifactId>xmlbeans</artifactId>
-            <version>5.0.0</version>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.2</version>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.ezmorph</groupId>
+            <artifactId>ezmorph</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.27</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox -->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>fontbox</artifactId>
+            <version>2.0.27</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/jempbox -->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>jempbox</artifactId>
+            <version>1.8.16</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <!--        <dependency>-->
+<!--            <groupId>com.itextpdf</groupId>-->
+<!--            <artifactId>itextpdf</artifactId>-->
+<!--            <version>5.5.13</version>-->
+<!--        </dependency>-->
+
+
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.poi</groupId>-->
+<!--            <artifactId>poi</artifactId>-->
+<!--            <version>5.0.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.poi</groupId>-->
+<!--            <artifactId>poi-ooxml</artifactId>-->
+<!--            <version>5.0.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.poi</groupId>-->
+<!--            <artifactId>poi-ooxml-schemas</artifactId>-->
+<!--            <version>4.1.2</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.xmlbeans</groupId>-->
+<!--                    <artifactId>xmlbeans</artifactId>-->
+<!--                </exclusion></exclusions>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.xmlbeans</groupId>-->
+<!--            <artifactId>xmlbeans</artifactId>-->
+<!--            <version>5.0.0</version>-->
+<!--        </dependency>-->
 
 
     </dependencies>
